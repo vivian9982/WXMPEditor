@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, TouchableWithoutFeedback } from 'react-native';
 import { commonstyle } from './App'
 
-class History extends React.Component{
+class Guide extends React.Component{
 	static navigationOptions = (navigation) => ({
 		headerTitle: '',
 		headerStyle: {
@@ -28,4 +28,4 @@ class History extends React.Component{
 	}
 }
 
-export default History;
+export default Guide;
